@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+</head>
+<style>
+    .red{
+        color: red;
+        display: block;
+        width: 200px;
+    }
+    .input:focus ~.courses{
+        display: block;
+
+    }
+    .courses{
+        display: none;
+    }
+</style>
+<body>
+    
+    <div id="box__container">
+        <div class="box-1">
+            <ul class="box__list-1">
+                <li class="boxItem">
+                    <p class="content">hoc javascript1 </p>
+                    <p class="content">hoc javascript2</p>
+                    <p class="content">hoc javascript3</p>
+                    <p class="content">hoc javascript4</p>
+                    <a href="https://www.facebook.com/pharrealjun/">facebook</a>
+                    <a href="facebook.com/pharrealjun/">google</a>
+                    <a href="https://www.facebook.com/pharrealjun/">instagram</a>
+                    <div>
+
+                        <input class="input" placeholder="Tìm Kiếm">
+                        <ul class="courses">
+                            <li>javascript</li>
+                            <li>PHP</li>
+                            <li>RUBY</li>
+                        </ul>
+                    </div>
+                    <style>
+                        .box{
+                            width: 20px;
+                        }
+                    </style>
+                </li>
+                <li class="box__item-1"></li>
+                <li class="box__item-1"></li>
+                <li class="box__item-1"></li>
+                <li class="box__item-1"></li>
+            </ul>
+        </div>
+        <div class="box box-2 " >
+            <!-- <span onclick = "console.log(this.style.color='red')">class list</span> -->
+            <span class="box__item">class list1</span>
+            <span class="box__item">class list2</span>
+            <span class="box__item">class list3</span>
+
+
+        </div>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        
+        
+    </div>
+    <div class="dom__events-example">
+        <input type="text">
+        <input type="checkbox">
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+    <div class="noibot">
+        div
+        <button class="btn" >Click me!</button>
+    </div>
+
+    <ul id="post-box"> 
+    </ul>
+    <!-- <script src="/main.js"> -->
+
+    </script>
+    <script src="/rever.js"></script>
+
+</body>
+</html>

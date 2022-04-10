@@ -1,0 +1,27 @@
+{
+  "courses": [
+    {
+      "name": "123",
+      "description": "123",
+      "id": 13
+    },
+    {
+      "name": "2223",
+      "description": "2223",
+      "id": 20
+    },
+    {
+      "name": "123",
+      "description": "123",
+      "id": 22
+    },
+    {
+      "editName": "23",
+      "editDescription": "333",
+      "id": 23
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
